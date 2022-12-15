@@ -1,0 +1,86 @@
+.footer {
+  border-top: 2px solid white;
+  background-color: black;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 140px;
+}
+.footer .logoEmail .logoTitle {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .logoEmail .logoTitle img {
+  max-width: 50px;
+  border-radius: 10px;
+}
+.footer .logoEmail .logoTitle .title {
+  letter-spacing: 2px;
+  margin-left: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 63px;
+  color: #FFFFFF;
+}
+.footer .logoEmail .email {
+  margin-top: 14px;
+  cursor: pointer;
+}
+.footer .logoEmail .email a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 40px;
+  color: #707070;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.footer .logoEmail .email:hover a {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #326DF9;
+}
+.footer .menu {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .menu li {
+  margin-left: 46px;
+}
+.footer .menu li .a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #707070;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer .menu li:hover .a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #326DF9;
+}

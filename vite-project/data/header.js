@@ -1,10 +1,12 @@
 export default {
+    languagesList: ['EN', 'DE'],
     EN: {
         title: "LevelUp!",
-        pages: ['Main', 'About', 'Plans', 'Blog', 'Story']
+        pages: ['Main', 'About', 'Value', 'Blog', 'Story']
     },
     DE: {
         title: "LevelUp!",
-        pages: ['Haupt', 'Über', 'Pläne', 'Blog', 'Story']
-    }
+        pages: ['Haupt', 'Über', 'Wert', 'Blog', 'Story'],
+    },
+    paths: ['/', '/about', '/value', '/blog', '/story']
 }

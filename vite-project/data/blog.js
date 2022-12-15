@@ -1,0 +1,16 @@
+export default {
+    EN: {
+        mainTitle: "Blog.",
+        title: ["Gain valuable career experience with our student internship and apprenticeship program", "Discovering New Opportunities: A Comprehensive Guide to Our Job-Experience Website"],
+        text: ["At our company, we understand the importance of hands-on experience in preparing students for the workforce. That's why we offer internships and apprenticeships that give students the opportunity to work on real-world projects and gain valuable experience in their chosen field.<br>Our program is designed to be flexible and customizable to meet the needs of both students and employers. We work with a wide range of companies and organizations, from small startups to large corporations, to provide students with a diverse range of experiences and opportunities.<br>In addition to providing practical experience, we also offer career counseling and support to help students navigate the job market and find the right fit for their skills and interests. We are committed to helping students succeed, both during their time with us and in their future careers.<br>If you're a student looking to gain valuable experience and build your resume, or an employer interested in hiring talented students, our program is a great option. Contact us today to learn more and get started.",
+            "Welcome to our job-experience website, where you can find a wide range of opportunities to gain valuable hands-on experience in your chosen field. Whether you're a student looking to build your resume and gain practical skills, or an employer looking to tap into a talented pool of potential employees, our website has something to offer.<br>On our website, you'll find a variety of internships and apprenticeships across a range of industries, from tech and engineering to healthcare and finance. Each opportunity is designed to give you the chance to work on real-world projects, develop your skills, and build your professional network.<br>In addition to the practical experience you'll gain through our program, we also offer career counseling and support to help you navigate the job market and find the right fit for your skills and interests. Our team of experts is here to help you every step of the way, from applying for opportunities to finding your dream job.<br>If you're an employer, our website can help you connect with a talented pool of potential employees who are eager to gain hands-on experience in your industry. Our program is customizable and flexible, so you can tailor it to meet your specific goals and objectives.<br>Explore our website to learn more about the opportunities we offer and how we can help you succeed in your career. We can't wait to help you discover new opportunities and take the next step in your professional journey."],
+        img: ["./post1.jpg", "./post2.jpg"],
+        date: ["15.12.22", "10.12.22"],
+        author: ["Eugene Mokrushin", "Nicolas Azar"],
+        authorPic: ["./eugene.jpg", "./nicolas.jpeg"]
+    },
+    DE: {
+
+    },
+    continue: "Read More"
+}

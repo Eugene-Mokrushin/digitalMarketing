@@ -1,0 +1,158 @@
+.mainValue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainValue .title {
+  margin-top: 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 112px;
+  /* identical to box height, or 149% */
+  color: #FFFFFF;
+}
+.mainValue .blocks {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.mainValue .blocks .block {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 -1 40%;
+          flex: 0 -1 40%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 55px;
+  width: 280px;
+  height: 250px;
+  background-color: white;
+  border: 3px solid #3C82F4;
+  border-radius: 10px;
+}
+.mainValue .blocks .block .front {
+  z-index: 1;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  /* identical to box height, or 150% */
+  opacity: 1;
+  -webkit-transition: opacity 0.9s;
+  transition: opacity 0.9s;
+  color: black;
+}
+.mainValue .blocks .block .back {
+  z-index: 10;
+  opacity: 0;
+  width: 0;
+}
+.mainValue .blocks .hiddenB:first-child {
+  opacity: 0;
+  -webkit-transform: translate(-40px, -40px);
+          transform: translate(-40px, -40px);
+}
+.mainValue .blocks .hiddenB:nth-child(2) {
+  opacity: 0;
+  -webkit-transform: translate(40px, -40px);
+          transform: translate(40px, -40px);
+}
+.mainValue .blocks .hiddenB:nth-child(3) {
+  opacity: 0;
+  -webkit-transform: translate(-40px, 40px);
+          transform: translate(-40px, 40px);
+}
+.mainValue .blocks .hiddenB:last-child {
+  opacity: 0;
+  -webkit-transform: translate(40px, 40px);
+          transform: translate(40px, 40px);
+}
+.mainValue .blocks .shownB:first-child {
+  -webkit-transition: opacity 2s, -webkit-transform 0.5s;
+  transition: opacity 2s, -webkit-transform 0.5s;
+  transition: opacity 2s, transform 0.5s;
+  transition: opacity 2s, transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+}
+.mainValue .blocks .shownB:nth-child(2) {
+  -webkit-transition: opacity 2.5s, -webkit-transform 0.5s;
+  transition: opacity 2.5s, -webkit-transform 0.5s;
+  transition: opacity 2.5s, transform 0.5s;
+  transition: opacity 2.5s, transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+}
+.mainValue .blocks .shownB:nth-child(3) {
+  -webkit-transition: opacity 2.5s, -webkit-transform 0.5s;
+  transition: opacity 2.5s, -webkit-transform 0.5s;
+  transition: opacity 2.5s, transform 0.5s;
+  transition: opacity 2.5s, transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+}
+.mainValue .blocks .shownB:last-child {
+  -webkit-transition: opacity 3s, -webkit-transform 0.5s;
+  transition: opacity 3s, -webkit-transform 0.5s;
+  transition: opacity 3s, transform 0.5s;
+  transition: opacity 3s, transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1;
+}
+.mainValue .blocks .flipped {
+  background: -webkit-gradient(linear, right top, left top, from(#743ad5), to(#d53a9d));
+  background: linear-gradient(to left, #743ad5, #d53a9d);
+  border: 3px solid white;
+}
+.mainValue .blocks .flipped .front {
+  display: none;
+  opacity: 0;
+  width: 0;
+}
+.mainValue .blocks .flipped .back {
+  -webkit-transition: opacity 0.9s;
+  transition: opacity 0.9s;
+  opacity: 1;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  width: initial;
+  color: white;
+}
