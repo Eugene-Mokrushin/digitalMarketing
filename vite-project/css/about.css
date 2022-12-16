@@ -20,6 +20,13 @@
   padding-bottom: 56px;
   border-bottom: 1.5px solid #828282;
 }
+.main .mainText .shownP {
+  opacity: 1 !important;
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 .main .mainText .ptext {
   font-family: "Poppins";
   font-style: normal;
@@ -28,6 +35,11 @@
   line-height: 42px;
   color: #FFFFFF;
   margin-bottom: 45px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
 }
 .main .mainText .propt {
   font-family: "Poppins";
@@ -83,7 +95,7 @@
           align-items: center;
 }
 .main .team .we .block {
-  width: 333px;
+  width: 363px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

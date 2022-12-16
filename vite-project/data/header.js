@@ -6,7 +6,7 @@ export default {
     },
     DE: {
         title: "LevelUp!",
-        pages: ['Haupt', 'Über', 'Wert', 'Blog', 'Story'],
+        pages: ['Haupt', 'Über', 'Wert', 'Bloggen', 'Geschichte'],
     },
     paths: ['/', '/about', '/value', '/blog', '/story']
 }

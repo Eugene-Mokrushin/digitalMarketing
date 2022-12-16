@@ -16,7 +16,7 @@ export default function Value({ lang }) {
       })
     })
     elements.forEach((el) => observer.observe(el))
-  }, [])
+  }, [lang])
 
   function handleEnter(e) {
     e.target.closest('.block').classList.add('flipped')

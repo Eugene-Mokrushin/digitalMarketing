@@ -15,6 +15,12 @@
         // opacity: 0.5;
         border-bottom: 1.5px solid #828282;
 
+        .shownP {
+            opacity: 1 !important;
+            transform: scale(1) !important;
+            transition: .5s;
+        }
+        
         .ptext {
             font-family: 'Poppins';
             font-style: normal;
@@ -22,9 +28,12 @@
             font-size: 28px;
             line-height: 42px;
             color: #FFFFFF;
-            
-
             margin-bottom: 45px;
+
+
+            transform: scale(1.1);
+            transition: .5s;
+            opacity: 0;
         }
 
         .propt {
@@ -81,7 +90,7 @@
             align-items: center;
 
             .block {
-                width: 333px;
+                width: 363px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;

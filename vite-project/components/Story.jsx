@@ -15,7 +15,7 @@ export default function Story({ lang }) {
             })
         })
         elements.forEach((el) => observer.observe(el))
-    }, [])
+    }, [lang])
 
     return (
         <main className='mainStory'>

@@ -8,12 +8,13 @@
         transition: 1s;
         opacity: 0;
     }
-    
+
     .shown {
         transform: translateX(0px) !important;
         transition: 1s;
         opacity: 1;
     }
+
     margin-top: 150px;
     width: 100%;
     background-color: black !important;
@@ -624,8 +625,8 @@
                     font-family: 'Poppins';
                     font-style: normal;
                     font-weight: 600;
-                    font-size: 80px;
-                    line-height: 120px;
+                    font-size: 64px;
+                    // line-height: 120px;
                     /* identical to box height, or 150% */
 
 
@@ -637,7 +638,7 @@
                     font-family: 'Poppins';
                     font-style: normal;
                     font-weight: 600;
-                    font-size: 80px;
+                    font-size: 64px;
                     line-height: 120px;
                     /* identical to box height, or 150% */
 
@@ -1079,6 +1080,71 @@
 
                 color: #707070;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .title1,
+    .title2 {
+        font-size: 62px !important;
+        line-height: 80px !important;
+    }
+
+    .buttons {
+        flex-direction: column !important;
+
+        .button2 {
+            margin-left: 0px !important;
+            margin-top: 30px;
+        }
+    }
+
+    .manySubs {
+        .num {
+            font-size: 17px !important;
+            line-height: 26px !important;
+        }
+
+        .text {
+            font-size: 17px !important;
+            line-height: 26px !important;
+        }
+    }
+
+    .reasons {
+        flex-direction: column;
+    }
+
+    .firstStepDetails {
+        flex-direction: column;
+
+    }
+
+    .descr {
+        width: 100% !important;
+        padding: 0px !important;
+
+        .buttons {
+            flex-direction: column !important;
+            align-items: center;
+
+            .sb {
+                margin-left: 0px !important;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .photo {
+        display: none !important;
+    }
+
+    .secondStep {
+        .title {
+            font-size: 75px;
+            line-height: 112px;
         }
     }
 }

@@ -16,7 +16,7 @@ export default function Blog({ lang }) {
             })
         })
         elements.forEach((el) => observer.observe(el))
-    }, [])
+    }, [lang])
 
     function handleOpenPost(e) {
         e.target.closest('.post').classList.add('opened')
@@ -46,11 +46,11 @@ export default function Blog({ lang }) {
                         <div className="title">
                             {post}
                         </div>
-                        <div className="readmore" onClick={e => handleOpenPost(e)}>Read more</div>
+                        <div className="readmore" onClick={e => handleOpenPost(e)}>{data[lang].continue}</div>
                     </div>
                 </div>
                 <div className="text">
-                    {data[lang].text[index].split('<br>').map(textPart => (<><p>{textPart}</p><br /><br /></>))}
+                    {data[lang].text[index].split('<br>').map(textPart => (<span key={textPart}><p>{textPart}</p><br /><br /></span>))}
                 </div>
                 <div className="hide" onClick={e => { handleClosePost(e) }}>Hide</div>
             </article>

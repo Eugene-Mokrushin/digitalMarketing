@@ -7,10 +7,19 @@ export default {
         img: ["./post1.jpg", "./post2.jpg"],
         date: ["15.12.22", "10.12.22"],
         author: ["Eugene Mokrushin", "Nicolas Azar"],
-        authorPic: ["./eugene.jpg", "./nicolas.jpeg"]
+        authorPic: ["./eugene.jpg", "./nicolas.jpeg"],
+        continue: "Read More"
     },
     DE: {
-
+        mainTitle: "Bloggen.",
+        title: ["Sammeln Sie wertvolle Berufserfahrung mit unserem Praktikums- und Ausbildungsprogramm für Studenten", "Neue Möglichkeiten entdecken: Ein umfassender Leitfaden zu unserer Job-Experience-Website"],
+        text: ["In unserem Unternehmen wissen wir, wie wichtig praktische Erfahrung bei der Vorbereitung von Studenten auf die Arbeitswelt ist. Deshalb bieten wir Praktika und Ausbildungsplätze an, die Studenten die Möglichkeit geben, an realen Projekten zu arbeiten und wertvolle Erfahrungen in ihrem gewählten Umfeld zu sammeln Bereich.<br>Unser Programm ist so konzipiert, dass es flexibel und anpassbar ist, um die Bedürfnisse von Studenten und Arbeitgebern zu erfüllen.Wir arbeiten mit einer Vielzahl von Unternehmen und Organisationen zusammen, von kleinen Startups bis hin zu großen Konzernen, um Studenten ein vielfältiges Angebot zu bieten Erfahrungen und Möglichkeiten.<br>Neben der Bereitstellung praktischer Erfahrung bieten wir auch Karriereberatung und Unterstützung an, um Studenten dabei zu helfen, sich auf dem Arbeitsmarkt zurechtzufinden und die richtige Lösung für ihre Fähigkeiten und Interessen zu finden Zeit bei uns und in ihrer zukünftigen Karriere.<br>Wenn Sie ein Student sind, der wertvolle Erfahrungen sammeln und Ihren Lebenslauf aufbauen möchte, oder ein Arbeitgeber, der daran interessiert ist, einen talentierten Studenten einzustellen nts, unser Programm ist eine großartige Option. Kontaktieren Sie uns noch heute, um mehr zu erfahren und loszulegen.",
+            "Willkommen auf unserer Job-Experience-Website, auf der Sie eine große Auswahl an Möglichkeiten finden, wertvolle praktische Erfahrungen in Ihrem gewählten Bereich zu sammeln. Egal, ob Sie ein Student sind, der seinen Lebenslauf aufbauen und praktische Fähigkeiten erwerben möchte, oder ein Arbeitgeber, der auf der Suche ist Um einen talentierten Pool potenzieller Mitarbeiter zu erschließen, hat unsere Website etwas zu bieten.<br>Auf unserer Website finden Sie eine Vielzahl von Praktika und Ausbildungsplätzen in einer Vielzahl von Branchen, von Technik und Ingenieurwesen bis hin zu Gesundheitswesen und Finanzen Die Gelegenheit soll Ihnen die Möglichkeit geben, an realen Projekten zu arbeiten, Ihre Fähigkeiten zu entwickeln und Ihr berufliches Netzwerk aufzubauen.<br>Zusätzlich zu den praktischen Erfahrungen, die Sie durch unser Programm sammeln, bieten wir auch Karriereberatung und -unterstützung an um Ihnen dabei zu helfen, sich auf dem Arbeitsmarkt zurechtzufinden und das Richtige für Ihre Fähigkeiten und Interessen zu finden. Unser Expertenteam ist hier, um Ihnen bei jedem Schritt zu helfen, von der Bewerbung auf Stellenangebote bis zur Suche nach Ihrem Traumjob.<br>Wenn ja ein Arbeitgeber, o Unsere Website kann Ihnen helfen, mit einem talentierten Pool potenzieller Mitarbeiter in Kontakt zu treten, die gerne praktische Erfahrungen in Ihrer Branche sammeln möchten. Unser Programm ist anpassbar und flexibel, sodass Sie es auf Ihre spezifischen Ziele und Ziele zuschneiden können.<br>Erkunden Sie unsere Website, um mehr über die Möglichkeiten zu erfahren, die wir bieten, und wie wir Ihnen helfen können, in Ihrer Karriere erfolgreich zu sein. Wir können es kaum erwarten, Ihnen dabei zu helfen, neue Möglichkeiten zu entdecken und den nächsten Schritt auf Ihrem beruflichen Weg zu gehen."],
+        img: ["./post1.jpg", "./post2.jpg"],
+        date: ["15.12.22", "10.12.22"],
+        author: ["Eugene Mokrushin", "Nicolas Azar"],
+        authorPic: ["./eugene.jpg", "./nicolas.jpeg"],
+        continue: "Weiterlesen"
     },
-    continue: "Read More"
+    
 }
